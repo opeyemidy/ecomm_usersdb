@@ -1,0 +1,26 @@
+.DS_Store
+**/node_modules
+/dist
+
+package-lock.json
+# local env files
+server/.env.local
+server/.env.*.local
+
+*.log
+
+# Log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# https://www.atlassian.com/git/tutorials/saving-changes/gitignore
